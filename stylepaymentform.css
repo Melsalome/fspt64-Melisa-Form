@@ -1,0 +1,72 @@
+*{
+    font-weight: 600;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+
+}
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+}
+
+div.form-check{
+    width: 320px;
+}
+
+.alert{
+    height: 54px;
+    width: 1293px;
+    align-self: center;
+    
+}
+
+div.footpage{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
+h1{
+    background-color: #f7f7f7;
+    align-self: center;
+}
+
+div.creditcards{
+    gap: 10px;
+    display: flex;
+}
+
+
+.container-creditcard{
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+}
+
+.textarea{
+    width: 635px;
+    height: 100px;
+}
+
+.creditcards{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.fa-brands,.fab{
+    font-size: 25px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 95px;
+}
+    
